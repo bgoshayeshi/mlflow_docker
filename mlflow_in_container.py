@@ -4,7 +4,6 @@ import os
 import shutil
 from typing import TYPE_CHECKING, List, Dict, Optional, Tuple
 from exceptions import * 
-import json
 from ast import literal_eval
 
 def prepare_the_files(modelpath: str, dockerpath: str) -> str:
