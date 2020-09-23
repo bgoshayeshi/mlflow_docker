@@ -2,7 +2,9 @@
 
 If you are using mlflow to track and log your machine learning project and want to have it all in a "black box" aka docker container, here this repository will help you do that. 
 First, assume that you have already done all the training and have all the model data stored in a directory. 
-tip: the directory that has all the model data and rest of the required file necessary to do run mlflow upon contain a file named: "MLmodel" and probably "conda.yaml" 
+tip: the directory that has all the model data and rest of the required file necessary to do run mlflow upon contain a file named:
+```MLmodel``` and  ```conda.yaml``` 
+
 Now, you like to use the model to do predictions and use the answer in your workflow/pipeline. A docker container can take care of all of the model dependencies and environment variables ( and all other advantages of Docker). 
 You can use the code here to make a wrap the mlflow model in a docker container with "input" to invoke the prediction. 
 In order to make a container use the following function in "mlflow_in_container.py"
