@@ -40,6 +40,6 @@ and the docker response should be:
 ### Contact
 
 Babak Goshayeshi
-email:      bgoshayeshi@gmail.com\n
-website:    bgoshayeshi.com/babak\n
+email:      bgoshayeshi@gmail.com
+website:    www.bgoshayeshi.com/babak
 linkedin:   https://www.linkedin.com/in/bgoshayeshi/
