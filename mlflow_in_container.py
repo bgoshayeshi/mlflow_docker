@@ -22,7 +22,12 @@ def prepare_the_files(modelpath: str, dockerpath: str) -> str:
     return os.path.join(dockerpath, 'DockerMlflow')
  
 def model_to_docker_container(modelpath = str,  dockerpath=str) -> str:
-    
+    """
+    Prepare the required file and make a docker container
+    :param modelpath:   model path (it should contain MLmodel and conda.yaml files)
+    :param dockerpath:  where you like to save the docker container files. 
+    :return:            produced docker image id
+    """
     dockermlflow_path = prepare_the_files(modelpath= modelpath, dockerpath=dockerpath)
    
     cli = Client()
